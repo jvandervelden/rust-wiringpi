@@ -2,7 +2,7 @@ extern crate cc;
 extern crate glob;
 
 #[cfg(not(feature = "orangepi"))]
-const TARGET: &'static str = "wiringPi";
+const TARGET: &'static str = "WiringPi";
 #[cfg(feature = "orangepi")]
 const TARGET: &'static str = "WiringOP";
 
